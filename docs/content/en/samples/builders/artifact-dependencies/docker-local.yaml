@@ -1,8 +1,0 @@
-build:
-  artifacts:
-  - image: image1
-    requires:
-      - image: image2
-        alias: IMAGE2
-  - image: image2
-  local: {}

@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: kubeval
-  annotations:
-    config.kubernetes.io/function: |
-      container:
-        image: gcr.io/kpt-functions/kubeval
-        network: true

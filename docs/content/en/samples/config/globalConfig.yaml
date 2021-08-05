@@ -1,3 +1,0 @@
-global:
-  local-cluster: true
-kubeContexts: []

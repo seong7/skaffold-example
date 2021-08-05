@@ -2,7 +2,7 @@ apiVersion: skaffold/v2beta20
 kind: Config
 build:
   artifacts:
-  - image: skaffold-example
+  - image: seongjinkim1123/skaffold-example
 deploy:
   kubectl:
     manifests:

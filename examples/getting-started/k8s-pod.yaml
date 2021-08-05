@@ -5,6 +5,8 @@ metadata:
   labels:
     app: test  
 spec:
+  imagePullSecrets:
+      - name:  my-skaffold-secret
   containers:
   - name: getting-started
-    image: seongjinkim1123/skaffold-example
+    image: ghcr.io/seong7/skaffold-example

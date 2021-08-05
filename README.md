@@ -4,7 +4,7 @@
 
 > k8s cluster 가 구축되어 있고 kubectl 이 해당 cluster 를 잘 바라보고 있음을 가정합니다.
 
-Skaffold 를 설치합니다.
+Skaffold 를 [설치](https://skaffold.dev/docs/install/)한 후,
 
 [examples/getting-started](./examples/getting-started) 로 이동
 

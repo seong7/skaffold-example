@@ -10,7 +10,7 @@ Skaffold 를 [설치](https://skaffold.dev/docs/install/)한 후,
 
 1. [`skaffold.yaml`](./examples/getting-started/skaffold.yaml) 에서 `build.artifacts[].image` 에 docker image 를 push 할 Container Registry 와 image name 입력
     - default 는 docker registry (docker.io)
-    - Github Container Registry 나 private registry 를 이용중이라면 접속 정보를 담은 [secret](https://kubernetes.io/ko/docs/concepts/configuration/secret/) 이 k8s cluster 내 생성되어 있어야 합니다.
+    - private registry 를 이용중이라면 접속 정보를 담은 [secret](https://kubernetes.io/ko/docs/concepts/configuration/secret/) 이 k8s cluster 내 생성되어 있어야 합니다.
 
 2. [`k8s-pod.yaml`](./examples/getting-started/k8s-pod.yaml) 에서 `spec.containers[].image` 에 위에서 입력한 문자열과 동일하게 입력 (tag 는 입력하지 않아도 됨)
 

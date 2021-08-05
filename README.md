@@ -1,6 +1,6 @@
 **[Skaffold](https://skaffold.dev/docs/) 는 Kubenetes 환경에서 Continuous Build & Deploy 를 간편하게 도와주는 Tool 입니다.**
 
-## Example 실행법 :
+## Example 실행법
 
 > k8s cluster 가 구축되어 있고 kubectl 이 해당 cluster 를 잘 바라보고 있음을 가정합니다.
 
@@ -23,5 +23,5 @@ skaffold dev
   - Image build (using cache)
   - Image push
   - kubectl delete (using `k8s-pod.yaml`)
-  - kubectl aaply ( " )
+  - kubectl apply ( " )
 

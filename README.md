@@ -1,4 +1,4 @@
-**[Skaffold](https://skaffold.dev/docs/) 는 Kubenetes 환경에서 Continuos Build & Deploy 를 간편하게 도와주는 Tool 입니다.**
+**[Skaffold](https://skaffold.dev/docs/) 는 Kubenetes 환경에서 Continuous Build & Deploy 를 간편하게 도와주는 Tool 입니다.**
 
 ## Example 실행법 :
 
